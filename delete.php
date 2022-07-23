@@ -1,4 +1,5 @@
 <?php
+echo "ok";
 $mysqli = new mysqli("localhost", "root", "", "practice");
 if(isset($_POST["send"])){
     $id = $_POST["num"];
